@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Advertência por Falta Não Justificada - Restaurante Adele</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            color: #333;
+        }
+        .container {
+            width: 21cm;
+            height: 29.7cm;
+            padding: 30px;
+            border: 2px solid #000;
+            background-color: #f9f9f9;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 22px;
+        }
+        .content {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .assinatura {
+            margin-top: 40px;
+            border-top: 2px solid #333;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 18px;
+            padding: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 5px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .no-print {
+            text-align: center;
+            margin-top: 20px;
+        }
+        @media print {
+            .no-print { display: none; }
+            input, textarea { border: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print">
+        <button onclick="window.print()">Imprimir Advertência</button>
+    </div>
+
+    <div class="container">
+        <div class="logo">
+            <!-- Substitua "logo.png" pelo caminho da logo do restaurante -->
+            <img src="C:\Users\seraf\Desktop\advertecia\202308301544_UDh9_i.avif" alt="Logo Restaurante Adele">
+        </div>
+
+        <h2>Advertência por Falta Não Justificada</h2>
+
+        <div class="content">
+            <p><strong>Restaurante:</strong> Adele Comida Libanesa</p>
+            <p><strong>Funcionário:</strong> <input type="text" placeholder="Nome do Funcionário"></p>
+            <p><strong>Cargo:</strong> <input type="text" placeholder="Cargo do Funcionário"></p>
+            <p><strong>Data:</strong> <input type="date"></p>
+            <p><strong>Motivo:</strong></p>
+            <textarea rows="4" placeholder="Descreva o motivo da advertência"></textarea>
+
+            <p><strong>Referência à Legislação:</strong> Conforme previsto na **Consolidação das Leis do Trabalho (CLT)**, no artigo **482**, a ausência injustificada caracteriza infração passível de advertência, podendo resultar em penalidades mais severas em caso de reincidência.</p>
+            <p><strong>Orientações e Medidas Corretivas:</strong> O funcionário deve apresentar justificativa adequada para futuras ausências e cumprir as normas do restaurante para evitar sanções disciplinares.</p>
+        </div>
+
+        <div class="assinatura">
+            Assinatura do Funcionário
+        </div>
+
+        <div class="assinatura">
+            Assinatura do Responsável
+        </div>
+    </div>
+</body>
+</html>
